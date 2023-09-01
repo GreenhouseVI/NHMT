@@ -11,37 +11,37 @@ echo "#                                                      #"
 echo "########################################################"
 echo ""
 echo ""
-echo "1.启动"
-echo "2.查看状态"
-echo "3.更新"
-echo "4.备份"
-echo "5.导入数据(bate)"
-echo "6.重启"
-echo "7.关闭"
-read -p "请输入代码：" num
+echo "1.khoi dong"
+echo "2.kiem tra trang thai"
+echo "3.thay moi"
+echo "4.ho tro"
+echo "5.Nhap du lieu(bate)"
+echo "6.khoi dong lai"
+echo "7.Tat"
+read -p "nhap so thu tu：" num
 if [ "$num" == "1" ]
     then
     docker-compose up -d
-    read -s -p "按回车键继续……" continue
+    read -s -p "Nhan Enter de tiep tuc……" continue
     reset
     ./oj.sh
 elif [ "$num" == "2" ]
     then
     docker ps -a
-    read -s -p "按回车键继续……" continue
+    read -s -p "Nhan Enter de tiep tuc" continue
     reset
     ./oj.sh
 elif [ "$num" == "3" ]
     then
     git pull
     docker-compose pull && docker-compose up -d
-    read -s -p "按回车键继续……" continue
+    read -s -p "Nhan Enter de tiep tuc...." continue
     reset
     ./oj.sh
 elif [ "$num" == "4" ]
     then
     cp -r data data_bak
-    read -s -p "备份已完成，按回车键继续……" continue
+    read -s -p "Sao luu hoan tat, nhan enter de tiep tuc..." continue
     reset
     ./oj.sh
 elif [ "$num" == "5" ]
@@ -52,19 +52,19 @@ elif [ "$num" == "5" ]
     docker exec -it oj-backend /bin/sh
     cd ./utils
     python3 migrate_data.py old_data.json
-    read -s -p "按回车键继续……" continue
+    read -s -p "Nhan Enter de tiep tuc" continue
     reset
     ./oj.sh
 elif [ "$num" == "6" ]
     then
     docker-compose restart
-    read -s -p "按回车键继续……" continue
+    read -s -p "Nhan Enter de tiep tuc" continue
     reset
     ./oj.sh
 elif [ "$num" == "7" ]
     then
     docker-compose stop
-    read -s -p "按回车键继续……" continue
+    read -s -p "Nhan Enter de tiep tuc" continue
     reset
     ./oj.sh
 fi
