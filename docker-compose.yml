@@ -1,4 +1,4 @@
-version: "3"
+version: "9.9"
 services:
 
   oj-redis:
@@ -12,7 +12,7 @@ services:
   
   oj-postgres:
     image: postgres:10-alpine
-    container_name: Postgres (SQL)
+    container_name: Postgres(SQL)
     restart: always
     volumes:
       - $PWD/data/postgres:/var/lib/postgresql/data
@@ -60,7 +60,7 @@ services:
   
   oj-backend:
     image: luyencode/oj-backend
-    container_name: oj-backend
+    container_name: Web-Backend
     restart: always
     depends_on:
       - oj-redis
