@@ -16,7 +16,9 @@ Lưu ý chỉ hỗ trợ Windows x64/64-bit windows 10 trở lên
 
 2. Cài Docker 
 Link: https://desktop.docker.com/win/stable/Docker%20Desktop%20Installer.exe
+
 Nếu lỗi hãy thực hiện theo hướng dẫn của phần mềm chỉ
+
 Gỡ cài đặt cài lại
 
 4. Clone repo
