@@ -34,7 +34,7 @@ services:
     
   judge-server:
     image: luyencode/judge-server
-    container_name: judge-server
+    container_name: Judge-Server
     restart: always
     read_only: true
     cap_drop:
