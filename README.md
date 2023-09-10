@@ -14,7 +14,9 @@ Lưu ý chỉ hỗ trợ Windows x64/64-bit windows 10 Pro trở lên
 
 1. Tải Code và giải nén
 
-2. Cài Docker 
+   Link: https://codeload.github.com/GreenhouseVI/NHMT/zip/refs/heads/main
+
+3. Cài Docker 
 
     Link: https://desktop.docker.com/win/stable/Docker%20Desktop%20Installer.exe
 
