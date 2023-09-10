@@ -15,17 +15,15 @@ Lưu ý chỉ hỗ trợ Windows x64/64-bit windows 10 Pro trở lên
 1. Tải Code và giải nén
 
 2. Cài Docker 
-Link: https://desktop.docker.com/win/stable/Docker%20Desktop%20Installer.exe
 
-Nếu lỗi hãy thực hiện theo hướng dẫn của phần mềm chỉ
+    Link: https://desktop.docker.com/win/stable/Docker%20Desktop%20Installer.exe
 
-Gỡ cài đặt cài lại
+    Nếu lỗi hãy thực hiện theo hướng dẫn của phần mềm chỉ
 
-4. Clone repo
+    Gỡ cài đặt cài lại Hướng Dẫn Không Khắc Phục Được
 
-    ```bash
-    git clone -b 2.0 https://github.com/GreenhouseVI/NHMT.git && cd OnlineJudgeDeploy
-    ```
+4. Cài git
+
 
 5. Khởi động
 
