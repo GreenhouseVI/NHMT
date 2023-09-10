@@ -22,7 +22,7 @@ Lưu ý chỉ hỗ trợ Windows x64/64-bit windows 10 Pro trở lên
 
     Nếu lỗi hãy thực hiện theo hướng dẫn của phần mềm chỉ
 
-    Gỡ cài đặt cài lại Hướng Dẫn Không Khắc Phục Được
+    Gỡ cài đặt Lại Nếu Hướng Dẫn Không Khắc Phục Được
 
 4. Cài git
    
