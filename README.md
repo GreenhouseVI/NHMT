@@ -23,6 +23,7 @@ Lưu ý chỉ hỗ trợ Windows x64/64-bit windows 10 Pro trở lên
     Gỡ cài đặt cài lại Hướng Dẫn Không Khắc Phục Được
 
 4. Cài git
+   
     Link Tải : https://git-scm.com/download/win
    
     Link Hướng Dẫn: https://youtu.be/4xqVv2lTo40?si=yVoG2DjT0jTS0XG0
