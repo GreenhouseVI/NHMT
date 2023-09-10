@@ -23,13 +23,21 @@ Lưu ý chỉ hỗ trợ Windows x64/64-bit windows 10 Pro trở lên
     Gỡ cài đặt cài lại Hướng Dẫn Không Khắc Phục Được
 
 4. Cài git
+    Link Tải : https://git-scm.com/download/win
+   
+    Link Hướng Dẫn: https://youtu.be/4xqVv2lTo40?si=yVoG2DjT0jTS0XG0
 
+6. Khởi động
+   Mở Docker
+   
+   Vào Thư Mục Vừa Giải Nén Trên Chạy File oj.sh
+   
+   Chọn 1 Và đợi 1 thời gian cho tới khi xuất hiện dòng "Nhan Enter de tiep tuc"
+   
+   Và thoát File oj.sh
+   
+> Những lần Sau chỉ Cần Vô Docker.
 
-5. Khởi động
-
-    ```bash
-    docker-compose up -d
-    ```
 ### Cài đặt trên máy Linux
 
 1. Cài đặt môi trường
@@ -65,7 +73,6 @@ Quá trình cài đặt có thể tốn từ 5 đến 30 phút phụ thuộc và
 Sau đó, hãy kiểm tra bằng lệnh `docker ps -a`，nếu không có container nào ở trạng thái `unhealthy` hoặc `Exited (x) xxx` thì là ok rồi đó.
 
 ## Sử dụng
-
 
 Truy cập cổng HTTP 80 hoặc cổng HTTPS 443 của máy chủ thông qua trình duyệt và bạn có thể bắt đầu sử dụng. Đường dẫn trang quản lý là `/admin`, tên người dùng quản trị viên được tự động thêm vào trong quá trình cài đặt là `root` và mật khẩu là `rootroot`. **Vui lòng thay đổi mật khẩu ngay**.
 
