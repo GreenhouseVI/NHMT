@@ -10,7 +10,7 @@ Hệ thống Online Judge này bao gồm 3 module:
 Các module trên đều được đóng gói Docker và đã đẩy lên Docker Hub. Trong trường hợp cần thiết, bạn có thể sửa từng thành phần!
 ### Cài đặt trên máy Windows
 
-Lưu ý chỉ hỗ trợ Windows x64/64-bit windows 10 trở lên
+Lưu ý chỉ hỗ trợ Windows x64/64-bit windows 10 Pro trở lên
 
 1. Tải Code và giải nén
 
