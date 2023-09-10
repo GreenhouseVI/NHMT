@@ -10,27 +10,22 @@ Hệ thống Online Judge này bao gồm 3 module:
 Các module trên đều được đóng gói Docker và đã đẩy lên Docker Hub. Trong trường hợp cần thiết, bạn có thể sửa từng thành phần!
 ### Cài đặt trên máy Windows
 
-1. Cài đặt môi trường
+Lưu ý chỉ hỗ trợ Windows x64/64-bit windows 10 trở lên
 
-    ```bash
-    sudo apt-get update && sudo apt-get install -y vim python-pip curl git
-    pip install docker-compose
-    ```
+1. Tải Code và giải nén
 
 2. Cài Docker 
+Link: https://www.docker.com/
+Nếu lỗi hãy thực hiện theo hướng dẫn của phần mềm chỉ
+Gỡ cài đặt cài lại
 
-   ```bash
-   sudo curl -sSL get.docker.com | sh
-   ```
-
-
-3. Clone repo
+4. Clone repo
 
     ```bash
     git clone -b 2.0 https://github.com/GreenhouseVI/NHMT.git && cd OnlineJudgeDeploy
     ```
 
-4. Khởi động
+5. Khởi động
 
     ```bash
     docker-compose up -d
