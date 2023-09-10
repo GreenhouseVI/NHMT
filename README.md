@@ -8,7 +8,33 @@ Hệ thống Online Judge này bao gồm 3 module:
 - Web Frontend: https://github.com/luyencode/OnlineJudgeFE
 
 Các module trên đều được đóng gói Docker và đã đẩy lên Docker Hub. Trong trường hợp cần thiết, bạn có thể sửa từng thành phần!
+### Cài đặt trên máy Windows
 
+1. Cài đặt môi trường
+
+    ```bash
+    sudo apt-get update && sudo apt-get install -y vim python-pip curl git
+    pip install docker-compose
+    ```
+
+2. Cài Docker 
+
+   ```bash
+   sudo curl -sSL get.docker.com | sh
+   ```
+
+
+3. Clone repo
+
+    ```bash
+    git clone -b 2.0 https://github.com/GreenhouseVI/NHMT.git && cd OnlineJudgeDeploy
+    ```
+
+4. Khởi động
+
+    ```bash
+    docker-compose up -d
+    ```
 ### Cài đặt trên máy Linux
 
 1. Cài đặt môi trường
